@@ -122,9 +122,13 @@ section#projects {
   }
 
   .project-card-right {
-    margin-left: 0;
+    width: 100%;
+    margin: 0 auto;
   }
-
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
   .projects-header-line {
     width: 60px;
   }

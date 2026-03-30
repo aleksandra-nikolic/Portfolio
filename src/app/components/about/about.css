@@ -82,12 +82,9 @@ section#about {
 .about-image img {
   width: 100%;
   height: 100%;
-
-  /* object-fit: cover; */
   display: block;
 }
 
-/* SKILLS */
 .about-skills {
   display: flex;
 
@@ -124,14 +121,22 @@ section#about {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-
   .about-right {
-    order: -1;
+    width: 100%;
+    align-items: center;
+  }
+  .about-image {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 24px;
   }
 
-  .about-image {
-    width: 100%;
-    height: 280px;
+  .about-image img {
+    width: 200px;
+    height: 260px;
+    display: block;
   }
 
   .about-header-line {
