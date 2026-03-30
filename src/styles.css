@@ -9,9 +9,27 @@
   --border: rgba(122, 99, 82, 0.18);
 }
 
-*,
-*::before,
-*::after {
+.btn-primary {
+  padding: 12px 32px;
+  background: var(--accent);
+  color: #fdfaf5;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+  text-decoration: none;
+  border: none;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 var(--text);
+}
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,6 +42,6 @@ html {
 body {
   background: var(--bg);
   color: var(--text);
-  cursor: none;
+
   overflow-x: hidden;
 }
