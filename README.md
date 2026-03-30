@@ -14,4 +14,4 @@ My personal portfolio website built with Angular. It showcases three projects I 
 -Tailwind CSS
 
 ## Live Demo
-aleksandra-nikolic.netlify.app
+https://aleksandra-nikolic.netlify.app/
